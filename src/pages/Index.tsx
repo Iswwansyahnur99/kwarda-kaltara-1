@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import KetuaSambutan from "@/components/KetuaSambutan";
 import News from "@/components/News";
 import Events from "@/components/Events";
 import Gallery from "@/components/Gallery";
@@ -11,6 +12,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <KetuaSambutan />
         <News />
         <Events />
         <Gallery />
