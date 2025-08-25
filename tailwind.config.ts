@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -67,6 +68,18 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-scout-primary': 'var(--gradient-scout-primary)',
+				'gradient-scout-hero': 'var(--gradient-scout-hero)',
+				'gradient-accent': 'var(--gradient-accent)'
+			},
+			boxShadow: {
+				'scout': 'var(--shadow-scout)',
+				'elevated': 'var(--shadow-elevated)'
+			},
+			transitionProperty: {
+				'scout': 'var(--transition-scout)'
 			},
 			keyframes: {
 				'accordion-down': {
